@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Members.kml</name>
+	<StyleMap id="msn_marker">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sh_marker</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_marker</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_marker">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>marker.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Members</name>
+		<open>1</open>
+		<Placemark>
+			<name>SwissSkills</name>
+			<description><![CDATA[<a href="http://www.facebook.com/SwissSkills">SwissSkills on Facebook</a>]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>8.351757183501551,47.14610724091854,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

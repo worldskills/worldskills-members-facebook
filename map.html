@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>WorldSkills Members on Facebook</title>
+<style>
+
+#map {
+    width: 780px;
+    height: 500px;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+p {
+    margin: 10px 0 0 0;
+}
+
+p a {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+#member {
+    overflow: visible !important;
+    background-color: transparent !important;
+    height: 0 !important;
+}
+
+#member_GroupDiv {
+    position:absolute !important;
+    overflow: visible !important;
+    bottom: 28px;
+}
+
+#member_contentDiv {
+    position:relative !important;
+    left:-50%;
+    max-width:400px;
+    background:#fff;
+    border:2px solid #ccc;
+    color:#000;
+    text-align: center;
+    -webkit-user-select:auto;
+    -moz-user-select:auto;
+    user-select:auto;
+    -webkit-box-shadow: 2px 2px 5px -2px #ccc;
+    box-shadow: 2px 2px 5px -2px #ccc;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    padding:10px;
+    border:1px solid #ccc;
+    overflow: visible;
+}
+
+#member_contentDiv:after,
+#member_contentDiv:before {
+    top:100%;
+    border:solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    left:50%;
+    position:absolute;
+    pointer-events:none;
+}
+  
+#member_contentDiv:after {
+    border-top-color:#fff;
+    border-width:15px;
+    margin-left:-15px;
+    border-width:10px;
+    margin-left:-10px;
+}
+  
+#member_contentDiv:before {
+    border-top-color:#ccc;
+    border-width:18px;
+    margin-left:-18px;
+    border-width:12px;
+    margin-left:-12px;
+}
+</style>
+<script src="OpenLayers.js"></script>
+<script>
+
+function init () {
+
+    var layer = new OpenLayers.Layer.TMS("World", ['tiles/'], {'layername': 'worldskills', 'type': 'png'});
+    var map = new OpenLayers.Map({
+        div: 'map',
+        projection: new OpenLayers.Projection("EPSG:900913"),
+        displayProjection: new OpenLayers.Projection("EPSG:4326"),
+        layers: [layer],
+        center: [1000000, 3500000],
+        zoom: 2,
+        numZoomLevels: 5,
+        maxExtent: new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34)
+    });
+
+    var members = new OpenLayers.Layer.Vector("Members", {
+        projection: map.displayProjection,
+        strategies: [new OpenLayers.Strategy.Fixed()],
+        protocol: new OpenLayers.Protocol.HTTP({
+            url: 'members.kml',
+            format: new OpenLayers.Format.KML({
+                extractStyles: true,
+                extractAttributes: true
+            })
+        })
+    });
+    map.addLayer(members);
+
+    var select = new OpenLayers.Control.SelectFeature(members, {
+        hover: true,
+        eventListeners: {
+            featurehighlighted: onFeatureSelect
+        }
+    });
+    map.addControl(select);
+    select.activate(); 
+
+    function hideAll() {
+        for (var i = 0; i < members.features.length; i++) {
+            var feature = members.features[i];
+             if (feature.popup) {
+                map.removePopup(feature.popup);
+                feature.popup.destroy();
+                delete feature.popup;
+             }
+        }
+    }
+
+    function onFeatureSelect(event) {
+
+        hideAll();
+
+        var feature = event.feature;
+        var content = '<p>' + feature.attributes.description + '</p>';
+        var popup = new OpenLayers.Popup.Anchored("member", feature.geometry.getBounds().getCenterLonLat(), new OpenLayers.Size(100,100), content);
+        popup.autoSize = true;
+        feature.popup = popup;
+        map.addPopup(popup);
+    }
+
+    map.events.on({
+       click: hideAll
+    });
+};
+</script>
+</head>
+<body onload="init();">
+
+<div id="map"></div>
+
+</body>
+</html>
