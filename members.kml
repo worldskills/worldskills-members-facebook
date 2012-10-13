@@ -22,13 +22,36 @@
 	</Style>
 	<Folder>
 		<name>Members</name>
-		<open>1</open>
 		<Placemark>
 			<name>SwissSkills</name>
-			<description><![CDATA[<a href="http://www.facebook.com/SwissSkills" target="_top">SwissSkills on Facebook</a>]]></description>
+			<description><![CDATA[<a href="http://www.facebook.com/swissskills" target="_top">SwissSkills on Facebook</a>]]></description>
 			<styleUrl>#msn_marker</styleUrl>
 			<Point>
-				<coordinates>8.351757183501551,47.14610724091854,0</coordinates>
+				<coordinates>8.195801,47.26432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Skills Netherlands</name>
+			<description><![CDATA[<a href="http://www.facebook.com/SkillsNL" target="_top">Skills Netherlands on Facebook</a>]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>5.097656,52.217704,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WorldSkills Australia</name>
+			<description><![CDATA[<a href="http://www.facebook.com/WorldSkillsAU" target="_top">WorldSkills Australia on Facebook</a>]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>119.179688,-23.885838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WorldSkills Jamaica</name>
+			<description><![CDATA[<a href="http://www.facebook.com/WorldSkillsJamaica" target="_top">WorldSkills Jamaica on Facebook</a>]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-76.739502,18.046644,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
