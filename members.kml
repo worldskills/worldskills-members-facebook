@@ -25,7 +25,7 @@
 		<open>1</open>
 		<Placemark>
 			<name>SwissSkills</name>
-			<description><![CDATA[<a href="http://www.facebook.com/SwissSkills">SwissSkills on Facebook</a>]]></description>
+			<description><![CDATA[<a href="http://www.facebook.com/SwissSkills" target="_top">SwissSkills on Facebook</a>]]></description>
 			<styleUrl>#msn_marker</styleUrl>
 			<Point>
 				<coordinates>8.351757183501551,47.14610724091854,0</coordinates>
