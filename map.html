@@ -6,7 +6,7 @@
 <style>
 
 #map {
-    width: 780px;
+    width: 790px;
     height: 500px;
 }
 
@@ -99,7 +99,7 @@ function init () {
         projection: new OpenLayers.Projection("EPSG:900913"),
         displayProjection: new OpenLayers.Projection("EPSG:4326"),
         layers: [layer],
-        center: [1000000, 3500000],
+        center: [2400000, 3500000],
         zoom: 2,
         numZoomLevels: 5,
         maxExtent: new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34)
@@ -118,15 +118,6 @@ function init () {
     });
     map.addLayer(members);
 
-    var select = new OpenLayers.Control.SelectFeature(members, {
-        hover: true,
-        eventListeners: {
-            featurehighlighted: onFeatureSelect
-        }
-    });
-    map.addControl(select);
-    select.activate(); 
-
     function hideAll() {
         for (var i = 0; i < members.features.length; i++) {
             var feature = members.features[i];
@@ -138,17 +129,30 @@ function init () {
         }
     }
 
-    function onFeatureSelect(event) {
+    function onFeatureHighlight(event) {
 
         hideAll();
 
         var feature = event.feature;
         var content = '<p>' + feature.attributes.description + '</p>';
-        var popup = new OpenLayers.Popup.Anchored("member", feature.geometry.getBounds().getCenterLonLat(), new OpenLayers.Size(100,100), content);
+        var popup = new OpenLayers.Popup.Anchored('member', feature.geometry.getBounds().getCenterLonLat(), new OpenLayers.Size(100,100), content);
         popup.autoSize = true;
+        popup.calculateRelativePosition = function () {
+            return 'br';
+        };
+        popup.keepInMap = false;
         feature.popup = popup;
         map.addPopup(popup);
     }
+
+    var select = new OpenLayers.Control.SelectFeature(members, {
+        hover: true,
+        eventListeners: {
+            featurehighlighted: onFeatureHighlight
+        }
+    });
+    map.addControl(select);
+    select.activate(); 
 
     map.events.on({
        click: hideAll
