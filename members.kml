@@ -94,6 +94,14 @@
 				<coordinates>10.986328,51.563412,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Russia</name>
+			<description><![CDATA[http://www.facebook.com/WorldSkillsRussia]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>42.539063,55.178868,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
