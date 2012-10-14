@@ -110,6 +110,14 @@
 				<coordinates>8.525391,59.220934,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>SkillsAustria</name>
+			<description><![CDATA[http://www.facebook.com/skillsaustria]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>15.249023,47.842658,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
