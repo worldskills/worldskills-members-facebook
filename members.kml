@@ -54,6 +54,14 @@
 				<coordinates>-76.739502,18.046644,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Skills Canada / Compétences Canada</name>
+			<description><![CDATA[<a href="https://www.facebook.com/scc123" target="_top">Skills Canada on Facebook</a>]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-72.333984,46.769968,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
