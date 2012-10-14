@@ -126,6 +126,14 @@
 				<coordinates>77.34375,20.385825,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Iran</name>
+			<description><![CDATA[http://www.facebook.com/WorldSkillsIran]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>53.569336,33.468108,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
