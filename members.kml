@@ -56,7 +56,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Skills Canada / Compétences Canada</name>
-			<description><![CDATA[https://www.facebook.com/scc123]]></description>
+			<description><![CDATA[http://www.facebook.com/scc123]]></description>
 			<styleUrl>#msn_marker</styleUrl>
 			<Point>
 				<coordinates>-72.333984,46.769968,0</coordinates>
@@ -64,10 +64,34 @@
 		</Placemark>
 		<Placemark>
 			<name>WorldSkills UK</name>
-			<description><![CDATA[https://www.facebook.com/worldskillsukofficial]]></description>
+			<description><![CDATA[http://www.facebook.com/worldskillsukofficial]]></description>
 			<styleUrl>#msn_marker</styleUrl>
 			<Point>
 				<coordinates>-1.186523,52.133488,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WorldSkills France</name>
+			<description><![CDATA[http://www.facebook.com/WorldSkillsFrance]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>1.845703,45.890008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WorldSkills Singapore</name>
+			<description><![CDATA[http://www.facebook.com/pages/WorldSkills-Singapore/179836802044408]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>103.754883,1.34021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WorldSkills Germany</name>
+			<description><![CDATA[http://www.facebook.com/WorldSkillsGermany]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>10.986328,51.563412,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
