@@ -62,6 +62,14 @@
 				<coordinates>-72.333984,46.769968,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills UK</name>
+			<description><![CDATA[https://www.facebook.com/worldskillsukofficial]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-1.186523,52.133488,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
