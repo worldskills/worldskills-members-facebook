@@ -118,6 +118,14 @@
 				<coordinates>15.249023,47.842658,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills India</name>
+			<description><![CDATA[http://www.facebook.com/WorldSkillsIndia]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>77.34375,20.385825,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
