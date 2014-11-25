@@ -150,6 +150,14 @@
 				<coordinates>50.617978,25.8822822,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Barbados</name>
+			<description><![CDATA[https://www.facebook.com/worldskillsbarbados]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-59.5355639,13.1901325,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
