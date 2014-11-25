@@ -143,11 +143,11 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>WorldSkills Spain</name>
-			<description><![CDATA[http://www.facebook.com/WorldskillsSpain]]></description>
+			<name>SkillsBahrain</name>
+			<description><![CDATA[https://www.facebook.com/pages/SkillsBahrain/469262749792780]]></description>
 			<styleUrl>#msn_marker</styleUrl>
 			<Point>
-				<coordinates>-5.668945,39.67337,0</coordinates>
+				<coordinates>50.617978,25.8822822,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
