@@ -158,6 +158,14 @@
 				<coordinates>-59.5355639,13.1901325,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>SENAI</name>
+			<description><![CDATA[https://www.facebook.com/senainacional]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-53.1805018,-14.2400732,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
