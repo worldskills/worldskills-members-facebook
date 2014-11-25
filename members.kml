@@ -182,6 +182,14 @@
 				<coordinates>9.5155848,55.9396761,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Skills Finland</name>
+			<description><![CDATA[https://www.facebook.com/skillsfinland]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>26.0672554,64.9146659,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
