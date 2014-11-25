@@ -166,6 +166,14 @@
 				<coordinates>-53.1805018,-14.2400732,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Chile</name>
+			<description><![CDATA[https://www.facebook.com/pages/Worldskills-Chile/638114362865243]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-71.0574942,-36.739055,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
