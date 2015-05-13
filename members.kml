@@ -190,6 +190,14 @@
 				<coordinates>26.0672554,64.9146659,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Hong Kong</name>
+			<description><![CDATA[https://www.facebook.com/worldskillshongkong]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>114.166667,22.3,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
