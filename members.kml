@@ -198,6 +198,14 @@
 				<coordinates>114.166667,22.3,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Georgia</name>
+			<description><![CDATA[https://www.facebook.com/pages/Worldskills-Georgia/444621032298771]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>42.315407,43.356892,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
