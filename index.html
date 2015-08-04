@@ -38,7 +38,7 @@ p a:hover {
 #member_GroupDiv {
     position:absolute !important;
     overflow: visible !important;
-    bottom: 28px;
+    bottom: 25px;
 }
 
 #member_contentDiv {
@@ -55,9 +55,19 @@ p a:hover {
     box-shadow: 2px 2px 5px -2px #ccc;
     -webkit-border-radius:3px;
     border-radius:3px;
-    padding: 5px 5px 0 5px;
+    padding: 15px 15px 5px 15px;
     border:1px solid #ccc;
     overflow: visible;
+    text-align: center;
+}
+
+#member_contentDiv a {
+    text-decoration: none;
+    color: #3b62ad;
+}
+
+#member_contentDiv a:hover {
+    text-decoration: underline;
 }
 
 #member_contentDiv:after,
@@ -134,7 +144,7 @@ function init () {
         hideAll();
 
         var feature = event.feature;
-        var content = '<iframe src="//www.facebook.com/plugins/likebox.php?href=' + encodeURIComponent(feature.attributes.description) + '&amp;width=200&amp;height=80&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=true&amp;appId=535871789772048" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:80px;" allowTransparency="true"></iframe>';
+        var content = '<strong><a href="' + feature.attributes.description + '" target="_blank">' + feature.attributes.name + '</a></strong>';
         var popup = new OpenLayers.Popup.Anchored('member', feature.geometry.getBounds().getCenterLonLat(), new OpenLayers.Size(100,100), content);
         popup.autoSize = true;
         popup.calculateRelativePosition = function () {
