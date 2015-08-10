@@ -206,6 +206,14 @@
 				<coordinates>42.315407,43.356892,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Portugal</name>
+			<description><![CDATA[https://www.facebook.com/SkillsPortugal]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-8.224454,39.399872,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
