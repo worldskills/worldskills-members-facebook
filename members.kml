@@ -222,6 +222,14 @@
 				<coordinates>-102.552784,23.634501,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Italy</name>
+			<description><![CDATA[https://www.facebook.com/worldskillsitaly]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>12.567380,41.871940,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
