@@ -230,6 +230,14 @@
 				<coordinates>12.567380,41.871940,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Romania</name>
+			<description><![CDATA[https://www.facebook.com/WorldSkillsRomania]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>24.96676,45.943161,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
