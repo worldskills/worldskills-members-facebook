@@ -302,6 +302,14 @@
 				<coordinates>101.975766,4.210484,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Sweden</name>
+			<description><![CDATA[https://www.facebook.com/worldskillssweden]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>18.643501,60.128161,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
