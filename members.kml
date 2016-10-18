@@ -246,6 +246,14 @@
 				<coordinates>45.038189,40.069099,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Ecuador</name>
+			<description><![CDATA[https://www.facebook.com/worldskillsecuador]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-78.183406,-1.831239,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
