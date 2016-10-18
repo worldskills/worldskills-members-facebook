@@ -294,6 +294,14 @@
 				<coordinates>24.603189,56.879635,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>SkillsMalaysia</name>
+			<description><![CDATA[https://www.facebook.com/SkillsMalaysia]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>101.975766,4.210484,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
