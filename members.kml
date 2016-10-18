@@ -286,6 +286,14 @@
 				<coordinates>6.129583,49.815273,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>SkillsLatvia</name>
+			<description><![CDATA[https://www.facebook.com/SkillsLatvia]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>24.603189,56.879635,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
