@@ -254,6 +254,14 @@
 				<coordinates>-78.183406,-1.831239,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>SkillsHungary</name>
+			<description><![CDATA[https://www.facebook.com/skillshungary]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>19.503304,47.162494,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
