@@ -278,6 +278,14 @@
 				<coordinates>-19.020835,64.963051,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Luxembourg</name>
+			<description><![CDATA[https://www.facebook.com/WorldskillsLuxembourg]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>6.129583,49.815273,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
