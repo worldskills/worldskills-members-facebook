@@ -334,6 +334,14 @@
 				<coordinates>53.847818,23.424076,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills South Africa</name>
+			<description><![CDATA[https://www.facebook.com/WorldSkillsZA]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>22.937506,-30.559482,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
