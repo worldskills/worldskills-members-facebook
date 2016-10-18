@@ -262,6 +262,14 @@
 				<coordinates>19.503304,47.162494,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Israel</name>
+			<description><![CDATA[https://www.facebook.com/Worldskills.israel]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>34.851612,31.046051,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
