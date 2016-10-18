@@ -318,6 +318,14 @@
 				<coordinates>-95.712891,37.090240,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills New Zealand</name>
+			<description><![CDATA[https://www.facebook.com/worldskillsnz]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>174.885971,-40.900557,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
