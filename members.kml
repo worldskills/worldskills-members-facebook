@@ -310,6 +310,14 @@
 				<coordinates>18.643501,60.128161,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>SkillsUSA</name>
+			<description><![CDATA[https://www.facebook.com/SkillsUSA]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-95.712891,37.090240,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
