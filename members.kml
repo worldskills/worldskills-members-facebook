@@ -238,6 +238,14 @@
 				<coordinates>24.96676,45.943161,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Armenia</name>
+			<description><![CDATA[https://www.facebook.com/WorldSkills-Armenia-719775951468481]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>45.038189,40.069099,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
