@@ -31,8 +31,8 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Skills Netherlands</name>
-			<description><![CDATA[https://www.facebook.com/SkillsNL]]></description>
+			<name>WorldSkills Netherlands</name>
+			<description><![CDATA[https://www.facebook.com/WorldSkillsNL]]></description>
 			<styleUrl>#msn_marker</styleUrl>
 			<Point>
 				<coordinates>5.097656,52.217704,0</coordinates>
