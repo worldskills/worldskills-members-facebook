@@ -270,6 +270,14 @@
 				<coordinates>34.851612,31.046051,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Skills Iceland / Verkiðn</name>
+			<description><![CDATA[https://www.facebook.com/Skills-Iceland-Verkiðn-360150677329809]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-19.020835,64.963051,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
