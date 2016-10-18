@@ -6,13 +6,14 @@
 <style>
 
 #map {
-    width: 790px;
+    width: 810px;
     height: 500px;
 }
 
 body {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 13px;
+    margin: 0;
 }
 
 p {
@@ -109,7 +110,7 @@ function init () {
         projection: new OpenLayers.Projection("EPSG:900913"),
         displayProjection: new OpenLayers.Projection("EPSG:4326"),
         layers: [layer],
-        center: [2400000, 4000000],
+        center: [4000000, 3800000],
         zoom: 2,
         numZoomLevels: 5,
         maxExtent: new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34)
