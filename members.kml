@@ -366,6 +366,14 @@
 				<coordinates>27.953389,53.709807,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Belgium</name>
+			<description><![CDATA[https://www.facebook.com/worldskillsbelgium]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>4.469936,50.503887,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
