@@ -398,6 +398,14 @@
 				<coordinates>127.766922,35.907757,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Palestine</name>
+			<description><![CDATA[https://www.facebook.com/Palestineskills]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>35.233154,31.952162,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
