@@ -11,10 +11,8 @@ body {
 }
 
 #map {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
+    width: 810px;
+    height: 500px;
 }
 </style>
 <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
@@ -29,7 +27,7 @@ body {
 L.mapbox.accessToken = 'pk.eyJ1IjoiZXF1aXZhbGVuY2UiLCJhIjoiMFBRTUluVSJ9.7uRExGiymnKgvKfN9LvaMw';
 
 var map = L.mapbox.map('map');
-map.setView([30, 20], 2);
+map.setView([25, 35], 2);
 
 L.mapbox.styleLayer('mapbox://styles/equivalence/civhstdup007i2jql1i6el4na').addTo(map);
 
