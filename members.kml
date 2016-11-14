@@ -374,6 +374,14 @@
 				<coordinates>4.469936,50.503887,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Innove (Estonia)</name>
+			<description><![CDATA[https://www.facebook.com/kutseharidus.ee]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>25.013607,58.595272,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
