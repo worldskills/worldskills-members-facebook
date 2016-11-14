@@ -358,6 +358,14 @@
 				<coordinates>-63.616672,-38.416097,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Belarus</name>
+			<description><![CDATA[https://www.facebook.com/groups/WorldSkills.Belarus]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>27.953389,53.709807,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
