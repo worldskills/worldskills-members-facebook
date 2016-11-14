@@ -382,6 +382,14 @@
 				<coordinates>25.013607,58.595272,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>IrelandSkills</name>
+			<description><![CDATA[https://www.facebook.com/IrelandSkills-191931620845943]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-8.243890,53.412910,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
