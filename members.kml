@@ -406,6 +406,14 @@
 				<coordinates>35.233154,31.952162,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>WorldSkills Thailand</name>
+			<description><![CDATA[https://www.facebook.com/WorldSkills-Thailand-1465706600374350]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>100.992541,15.870032,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
