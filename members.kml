@@ -350,6 +350,14 @@
 				<coordinates>18.490410,-22.957640,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Fundación UOCRA (Argentina)</name>
+			<description><![CDATA[https://www.facebook.com/FundacionUOCRAfanpage]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>-63.616672,-38.416097,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
