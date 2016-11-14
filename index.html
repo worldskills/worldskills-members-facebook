@@ -3,177 +3,40 @@
 <head>
 <meta charset="utf-8" />
 <title>WorldSkills Members on Facebook</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <style>
+body {
+    margin: 0;
+    padding: 0;
+}
 
 #map {
-    width: 810px;
-    height: 500px;
-}
-
-body {
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    margin: 0;
-}
-
-p {
-    margin: 10px 0;
-    text-align: left;
-}
-
-p a {
-    color: #3b5998;
-    text-decoration: none;
-}
-
-p a:hover {
-    text-decoration: underline;
-}
-
-#member {
-    overflow: visible !important;
-    background-color: transparent !important;
-    height: 0 !important;
-}
-
-#member_GroupDiv {
-    position:absolute !important;
-    overflow: visible !important;
-    bottom: 25px;
-}
-
-#member_contentDiv {
-    position:relative !important;
-    left:-50%;
-    max-width:400px;
-    background:#fff;
-    border:2px solid #ccc;
-    color:#000;
-    -webkit-user-select:auto;
-    -moz-user-select:auto;
-    user-select:auto;
-    -webkit-box-shadow: 2px 2px 5px -2px #ccc;
-    box-shadow: 2px 2px 5px -2px #ccc;
-    -webkit-border-radius:3px;
-    border-radius:3px;
-    padding: 15px 15px 5px 15px;
-    border:1px solid #ccc;
-    overflow: visible;
-    text-align: center;
-}
-
-#member_contentDiv a {
-    text-decoration: none;
-    color: #3b62ad;
-}
-
-#member_contentDiv a:hover {
-    text-decoration: underline;
-}
-
-#member_contentDiv:after,
-#member_contentDiv:before {
-    top:100%;
-    border:solid transparent;
-    content:'';
-    height:0;
-    width:0;
-    left:50%;
-    position:absolute;
-    pointer-events:none;
-}
-  
-#member_contentDiv:after {
-    border-top-color:#fff;
-    border-width:15px;
-    margin-left:-15px;
-    border-width:10px;
-    margin-left:-10px;
-}
-  
-#member_contentDiv:before {
-    border-top-color:#ccc;
-    border-width:18px;
-    margin-left:-18px;
-    border-width:12px;
-    margin-left:-12px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
 }
 </style>
-<script src="openlayers/OpenLayers.js"></script>
-<script>
-
-function init () {
-
-    var layer = new OpenLayers.Layer.TMS("World", ['tiles/'], {'layername': 'worldskills', 'type': 'png'});
-    var map = new OpenLayers.Map({
-        div: 'map',
-        projection: new OpenLayers.Projection("EPSG:900913"),
-        displayProjection: new OpenLayers.Projection("EPSG:4326"),
-        layers: [layer],
-        center: [4000000, 3800000],
-        zoom: 2,
-        numZoomLevels: 5,
-        maxExtent: new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34)
-    });
-
-    var members = new OpenLayers.Layer.Vector("Members", {
-        projection: map.displayProjection,
-        strategies: [new OpenLayers.Strategy.Fixed()],
-        protocol: new OpenLayers.Protocol.HTTP({
-            url: 'members.kml',
-            format: new OpenLayers.Format.KML({
-                extractStyles: true,
-                extractAttributes: true
-            })
-        })
-    });
-    map.addLayer(members);
-
-    function hideAll() {
-        for (var i = 0; i < members.features.length; i++) {
-            var feature = members.features[i];
-             if (feature.popup) {
-                map.removePopup(feature.popup);
-                feature.popup.destroy();
-                delete feature.popup;
-             }
-        }
-    }
-
-    function onFeatureHighlight(event) {
-
-        hideAll();
-
-        var feature = event.feature;
-        var content = '<strong><a href="' + feature.attributes.description + '" target="_blank">' + feature.attributes.name + '</a></strong>';
-        var popup = new OpenLayers.Popup.Anchored('member', feature.geometry.getBounds().getCenterLonLat(), new OpenLayers.Size(100,100), content);
-        popup.autoSize = true;
-        popup.calculateRelativePosition = function () {
-            return 'br';
-        };
-        popup.keepInMap = false;
-        feature.popup = popup;
-        map.addPopup(popup);
-    }
-
-    var select = new OpenLayers.Control.SelectFeature(members, {
-        hover: true,
-        eventListeners: {
-            featurehighlighted: onFeatureHighlight
-        }
-    });
-    map.addControl(select);
-    select.activate(); 
-
-    map.events.on({
-       click: hideAll
-    });
-};
-</script>
+<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
 </head>
-<body onload="init();">
+<body>
 
-<div id="map"></div>
+<div id='map'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiZXF1aXZhbGVuY2UiLCJhIjoiMFBRTUluVSJ9.7uRExGiymnKgvKfN9LvaMw';
+
+var map = L.mapbox.map('map');
+map.setView([30, 20], 2);
+
+L.mapbox.styleLayer('mapbox://styles/equivalence/civhstdup007i2jql1i6el4na').addTo(map);
+
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('members.geojson')
+    .addTo(map);
+</script>
 
 </body>
 </html>
