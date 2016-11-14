@@ -390,6 +390,14 @@
 				<coordinates>-8.243890,53.412910,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>한국산업인력공단 (Korea)</name>
+			<description><![CDATA[https://www.facebook.com/hrdkorea2020]]></description>
+			<styleUrl>#msn_marker</styleUrl>
+			<Point>
+				<coordinates>127.766922,35.907757,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 </Document>
 </kml>
