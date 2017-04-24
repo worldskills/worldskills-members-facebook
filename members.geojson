@@ -784,6 +784,22 @@
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.849332,
+                    -13.133897,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/worldskillszambia/' target='_blank'>WorldSkills Zambia</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
         }
     ]
 }
