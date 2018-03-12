@@ -790,6 +790,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    15.200000,
+                    45.100000,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/worldskillscroatia/' target='_blank'>WorldSkills Croatia</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     27.849332,
                     -13.133897,
                     0
