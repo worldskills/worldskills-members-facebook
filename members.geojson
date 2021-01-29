@@ -816,6 +816,166 @@
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.993746,
+                    7.870329,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/worldskillsghana/' target='_blank'>WorldSkills Ghana</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.350586,
+                    36.421282,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/WorldSkills-Japan-271659026853715' target='_blank'>WorldSkills Japan</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.134377,
+                    52.119760,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/WorldSkillsPoland/' target='_blank'>WorldSkills Poland</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.505798,
+                    47.180286,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/worldskillshungary/' target='_blank'>WorldSkills Hungary</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.467346,
+                    12.441941,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/worldskillsphofficial/' target='_blank'>WorldSkills Philippines</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.547806,
+                    47.150034,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/worldskillsliechtenstein/' target='_blank'>WorldSkills Liechtenstein</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.267090,
+                    49.239121,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/WorldSkills-Ukraine-1812651882291503/' target='_blank'>WorldSkills Ukraine</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.378879,
+                    31.022021,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/Worldskills-Morocco-139966009704124/' target='_blank'>WorldSkills Morocco</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.834784,
+                    47.126509,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/WorldSkills-Mongolia-768688123282951/' target='_blank'>WorldSkills Mongolia</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.618408,
+                    12.441941,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/WorldSkillsPhilippines/' target='_blank'>WorldSkills Philippines</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
         }
     ]
 }
