@@ -960,22 +960,6 @@
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    122.618408,
-                    12.441941,
-                    0
-                ]
-            },
-            "properties": {
-                "description": "<a href='https://www.facebook.com/WorldSkillsPhilippines/' target='_blank'>WorldSkills Philippines</a>",
-                "marker-color": "#f63837",
-                "marker-size": "small"
-            }
         }
     ]
 }
