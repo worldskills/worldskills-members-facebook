@@ -252,7 +252,7 @@
                 ]
             },
             "properties": {
-                "description": "<a href='https://www.facebook.com/pages/SkillsBahrain/469262749792780' target='_blank'>SkillsBahrain</a>",
+                "description": "<a href='https://www.facebook.com/skillsbahrain' target='_blank'>SkillsBahrain</a>",
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
@@ -668,7 +668,7 @@
                 ]
             },
             "properties": {
-                "description": "<a href='https://www.facebook.com/FundacionUOCRAfanpage' target='_blank'>Fundación UOCRA (Argentina)</a>",
+                "description": "<a href='https://www.facebook.com/WorldSkillsArgentina' target='_blank'>WorldSkills Argentina</a>",
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
@@ -940,7 +940,7 @@
                 ]
             },
             "properties": {
-                "description": "<a href='https://www.facebook.com/Worldskills-Morocco-139966009704124/' target='_blank'>WorldSkills Morocco</a>",
+                "description": "<a href='https://www.facebook.com/WorldSkillsMA/' target='_blank'>WorldSkills Morocco</a>",
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
@@ -957,6 +957,150 @@
             },
             "properties": {
                 "description": "<a href='https://www.facebook.com/WorldSkills-Mongolia-768688123282951/' target='_blank'>WorldSkills Mongolia</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45.381116,
+                    41.102592,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/PesheAgentliyi' target='_blank'>WorldSkills Azerbaijan</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.956055,
+                    24.447150,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/pages/NSDC%20Secretariat/1573820412849307/' target='_blank'>WorldSkills Bangladesh</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.847656,
+                    10.228437,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/WorldSkills-Costa-Rica-114637613657223/' target='_blank'>WorldSkills Costa Rica</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.386230,
+                    1.373160,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/TVETAKenya/' target='_blank'>WorldSkills Kenya</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.909180,
+                    20.858812,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/OmanSkills/' target='_blank'>OmanSkills</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.883789,
+                    30.467614,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/navttcpymsdp' target='_blank'>Pakistan</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.989685,
+                    24.064020,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/WDASEC/' target='_blank'>WorldSkills Chinese Taipei</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.152649,
+                    10.782047,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/NTATnT' target='_blank'>Trinidad and Tobago</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.286870,
+                    1.377593,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/WorldSkillsUganda' target='_blank'>WorldSkills Uganda</a>",
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
