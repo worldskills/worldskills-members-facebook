@@ -252,7 +252,7 @@
                 ]
             },
             "properties": {
-                "description": "<a href='https://www.facebook.com/pages/SkillsBahrain/469262749792780' target='_blank'>SkillsBahrain</a>",
+                "description": "<a href='https://www.facebook.com/skillsbahrain' target='_blank'>SkillsBahrain</a>",
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
@@ -973,6 +973,22 @@
             },
             "properties": {
                 "description": "<a href='https://www.facebook.com/PesheAgentliyi' target='_blank'>WorldSkills Azerbaijan</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.956055,
+                    24.447150,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/pages/NSDC%20Secretariat/1573820412849307/' target='_blank'>WorldSkills Bangladesh</a>",
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
