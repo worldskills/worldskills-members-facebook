@@ -960,6 +960,22 @@
                 "marker-color": "#f63837",
                 "marker-size": "small"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45.381116,
+                    41.102592,
+                    0
+                ]
+            },
+            "properties": {
+                "description": "<a href='https://www.facebook.com/PesheAgentliyi' target='_blank'>WorldSkills Azerbaijan</a>",
+                "marker-color": "#f63837",
+                "marker-size": "small"
+            }
         }
     ]
 }
